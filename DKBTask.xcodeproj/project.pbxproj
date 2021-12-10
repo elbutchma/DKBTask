@@ -10,7 +10,6 @@
 		066334F72763A5B000ABD873 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066334F62763A5B000ABD873 /* AppDelegate.swift */; };
 		066335002763A5B300ABD873 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 066334FF2763A5B300ABD873 /* Assets.xcassets */; };
 		066335032763A5B300ABD873 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 066335012763A5B300ABD873 /* LaunchScreen.storyboard */; };
-		0663350E2763A5B300ABD873 /* DKBTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0663350D2763A5B300ABD873 /* DKBTaskTests.swift */; };
 		066335182763A5B300ABD873 /* DKBTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066335172763A5B300ABD873 /* DKBTaskUITests.swift */; };
 		0663351A2763A5B300ABD873 /* DKBTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066335192763A5B300ABD873 /* DKBTaskUITestsLaunchTests.swift */; };
 		066335282763A6AD00ABD873 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066335272763A6AD00ABD873 /* APIClient.swift */; };
@@ -30,6 +29,14 @@
 		0663354B2763AD2D00ABD873 /* PhotoDetailsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0663354A2763AD2D00ABD873 /* PhotoDetailsViewController.storyboard */; };
 		0663354D2763AD4300ABD873 /* PhotoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0663354C2763AD4300ABD873 /* PhotoDetailsViewController.swift */; };
 		0663354F2763AD5100ABD873 /* PhotoDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0663354E2763AD5100ABD873 /* PhotoDetailsViewModel.swift */; };
+		066335542763B06800ABD873 /* MockAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066335532763B06800ABD873 /* MockAPIClient.swift */; };
+		066335562763B09000ABD873 /* MockPhotosRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066335552763B09000ABD873 /* MockPhotosRepository.swift */; };
+		066335582763B0B300ABD873 /* MockCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066335572763B0B300ABD873 /* MockCoordinator.swift */; };
+		0663355A2763B0D100ABD873 /* PhotosRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066335592763B0D100ABD873 /* PhotosRepositoryTests.swift */; };
+		0663355C2763B10200ABD873 /* PhotosListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0663355B2763B10200ABD873 /* PhotosListViewModelTests.swift */; };
+		0663355F2763B18A00ABD873 /* PhotosList.json in Resources */ = {isa = PBXBuildFile; fileRef = 066335512763B00B00ABD873 /* PhotosList.json */; };
+		066335602763B18A00ABD873 /* PhotoDetails.json in Resources */ = {isa = PBXBuildFile; fileRef = 066335522763B02300ABD873 /* PhotoDetails.json */; };
+		066335632763B1B400ABD873 /* PhotoDetailsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066335622763B1B400ABD873 /* PhotoDetailsViewModelTests.swift */; };
 		171BA7E4E9B7BECE1A6FDADB /* Pods_DKBTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7342740CC80D48EBEEA32CD /* Pods_DKBTask.framework */; };
 		84782E78EF772BB3C3DDE70F /* Pods_DKBTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E685D1F404E19916F4FAF9E1 /* Pods_DKBTaskTests.framework */; };
 		BE7DDEA7CEB0CDDD44224EE6 /* Pods_DKBTask_DKBTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE32C624EE7C1E6329D1C7EC /* Pods_DKBTask_DKBTaskUITests.framework */; };
@@ -59,7 +66,6 @@
 		066335022763A5B300ABD873 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		066335042763A5B300ABD873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		066335092763A5B300ABD873 /* DKBTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKBTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0663350D2763A5B300ABD873 /* DKBTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKBTaskTests.swift; sourceTree = "<group>"; };
 		066335132763A5B300ABD873 /* DKBTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKBTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		066335172763A5B300ABD873 /* DKBTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKBTaskUITests.swift; sourceTree = "<group>"; };
 		066335192763A5B300ABD873 /* DKBTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKBTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -80,6 +86,14 @@
 		0663354A2763AD2D00ABD873 /* PhotoDetailsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PhotoDetailsViewController.storyboard; sourceTree = "<group>"; };
 		0663354C2763AD4300ABD873 /* PhotoDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewController.swift; sourceTree = "<group>"; };
 		0663354E2763AD5100ABD873 /* PhotoDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewModel.swift; sourceTree = "<group>"; };
+		066335512763B00B00ABD873 /* PhotosList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PhotosList.json; sourceTree = "<group>"; };
+		066335522763B02300ABD873 /* PhotoDetails.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PhotoDetails.json; sourceTree = "<group>"; };
+		066335532763B06800ABD873 /* MockAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAPIClient.swift; sourceTree = "<group>"; };
+		066335552763B09000ABD873 /* MockPhotosRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPhotosRepository.swift; sourceTree = "<group>"; };
+		066335572763B0B300ABD873 /* MockCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCoordinator.swift; sourceTree = "<group>"; };
+		066335592763B0D100ABD873 /* PhotosRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosRepositoryTests.swift; sourceTree = "<group>"; };
+		0663355B2763B10200ABD873 /* PhotosListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosListViewModelTests.swift; sourceTree = "<group>"; };
+		066335622763B1B400ABD873 /* PhotoDetailsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewModelTests.swift; sourceTree = "<group>"; };
 		76B88FE2690D3BF519B6937F /* Pods-DKBTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKBTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-DKBTaskTests/Pods-DKBTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ABEEE11226E1E91919EC7A8D /* Pods-DKBTask-DKBTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKBTask-DKBTaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-DKBTask-DKBTaskUITests/Pods-DKBTask-DKBTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B7342740CC80D48EBEEA32CD /* Pods_DKBTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DKBTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -160,7 +174,13 @@
 		0663350C2763A5B300ABD873 /* DKBTaskTests */ = {
 			isa = PBXGroup;
 			children = (
-				0663350D2763A5B300ABD873 /* DKBTaskTests.swift */,
+				066335502763AFF100ABD873 /* Stubs */,
+				066335532763B06800ABD873 /* MockAPIClient.swift */,
+				066335552763B09000ABD873 /* MockPhotosRepository.swift */,
+				066335572763B0B300ABD873 /* MockCoordinator.swift */,
+				066335592763B0D100ABD873 /* PhotosRepositoryTests.swift */,
+				0663355B2763B10200ABD873 /* PhotosListViewModelTests.swift */,
+				066335622763B1B400ABD873 /* PhotoDetailsViewModelTests.swift */,
 			);
 			path = DKBTaskTests;
 			sourceTree = "<group>";
@@ -248,6 +268,15 @@
 				0663354E2763AD5100ABD873 /* PhotoDetailsViewModel.swift */,
 			);
 			path = PhotoDetails;
+			sourceTree = "<group>";
+		};
+		066335502763AFF100ABD873 /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				066335512763B00B00ABD873 /* PhotosList.json */,
+				066335522763B02300ABD873 /* PhotoDetails.json */,
+			);
+			path = Stubs;
 			sourceTree = "<group>";
 		};
 		8E96C514CC612350E0CCB305 /* Pods */ = {
@@ -349,6 +378,7 @@
 					};
 					066335082763A5B300ABD873 = {
 						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
 						TestTargetID = 066334F22763A5B000ABD873;
 					};
 					066335122763A5B300ABD873 = {
@@ -382,6 +412,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0663355F2763B18A00ABD873 /* PhotosList.json in Resources */,
+				066335602763B18A00ABD873 /* PhotoDetails.json in Resources */,
 				066335482763AB3000ABD873 /* PhotosListTableViewCell.xib in Resources */,
 				0663354B2763AD2D00ABD873 /* PhotoDetailsViewController.storyboard in Resources */,
 				066335032763A5B300ABD873 /* LaunchScreen.storyboard in Resources */,
@@ -536,7 +568,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0663350E2763A5B300ABD873 /* DKBTaskTests.swift in Sources */,
+				066335562763B09000ABD873 /* MockPhotosRepository.swift in Sources */,
+				0663355C2763B10200ABD873 /* PhotosListViewModelTests.swift in Sources */,
+				066335542763B06800ABD873 /* MockAPIClient.swift in Sources */,
+				0663355A2763B0D100ABD873 /* PhotosRepositoryTests.swift in Sources */,
+				066335632763B1B400ABD873 /* PhotoDetailsViewModelTests.swift in Sources */,
+				066335582763B0B300ABD873 /* MockCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -754,6 +791,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -767,6 +805,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.dkb.DKBTaskTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DKBTask.app/DKBTask";
@@ -779,6 +818,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
