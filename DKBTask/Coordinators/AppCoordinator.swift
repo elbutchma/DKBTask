@@ -49,7 +49,10 @@ final class AppCoordinator: CoordinatorType {
     func navigate(to state: AppState) {
         switch state {
         case .photo(let photoId):
-           break
+            let repository = PhotosRepository(apiClient: APIClient())
+            let viewModel = PhotoDetailsViewModel(withCoordinator: self, repository: repository, photoId: photoId)
+            let viewController = PhotoDetailsViewController.instantiate(with: viewModel)
+            (rootController as? UINavigationController)?.pushViewController(viewController, animated: true)
         default:
             break
         }
