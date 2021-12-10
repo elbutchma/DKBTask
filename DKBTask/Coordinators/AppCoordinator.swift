@@ -32,3 +32,26 @@ enum AppState {
     case photosList
     case photo(photoId: Int)
 }
+
+final class AppCoordinator: CoordinatorType {
+    lazy var rootController: UIViewController = {
+        let repository = PhotosRepository(apiClient: APIClient())
+        let viewModel = PhotosListViewModel(withCoordinator: self, repository: repository)
+        let viewController = PhotosListViewController.instantiate(with: viewModel)
+        return UINavigationController(rootViewController: viewController)
+    }()
+    var children: [CoordinatorType] = []
+    
+    func coordinate(inWindow window: UIWindow) {
+        window.rootViewController = rootController
+    }
+    
+    func navigate(to state: AppState) {
+        switch state {
+        case .photo(let photoId):
+           break
+        default:
+            break
+        }
+    }
+}
