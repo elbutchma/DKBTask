@@ -16,6 +16,9 @@
 		0663350E2763A5B300ABD873 /* DKBTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0663350D2763A5B300ABD873 /* DKBTaskTests.swift */; };
 		066335182763A5B300ABD873 /* DKBTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066335172763A5B300ABD873 /* DKBTaskUITests.swift */; };
 		0663351A2763A5B300ABD873 /* DKBTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066335192763A5B300ABD873 /* DKBTaskUITestsLaunchTests.swift */; };
+		171BA7E4E9B7BECE1A6FDADB /* Pods_DKBTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7342740CC80D48EBEEA32CD /* Pods_DKBTask.framework */; };
+		84782E78EF772BB3C3DDE70F /* Pods_DKBTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E685D1F404E19916F4FAF9E1 /* Pods_DKBTaskTests.framework */; };
+		BE7DDEA7CEB0CDDD44224EE6 /* Pods_DKBTask_DKBTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE32C624EE7C1E6329D1C7EC /* Pods_DKBTask_DKBTaskUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,15 @@
 		066335132763A5B300ABD873 /* DKBTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKBTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		066335172763A5B300ABD873 /* DKBTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKBTaskUITests.swift; sourceTree = "<group>"; };
 		066335192763A5B300ABD873 /* DKBTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKBTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		76B88FE2690D3BF519B6937F /* Pods-DKBTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKBTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-DKBTaskTests/Pods-DKBTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ABEEE11226E1E91919EC7A8D /* Pods-DKBTask-DKBTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKBTask-DKBTaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-DKBTask-DKBTaskUITests/Pods-DKBTask-DKBTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B7342740CC80D48EBEEA32CD /* Pods_DKBTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DKBTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0C139BAA909E17D5C443EB7 /* Pods-DKBTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKBTaskTests.release.xcconfig"; path = "Target Support Files/Pods-DKBTaskTests/Pods-DKBTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		CE47CFEEC7148CD7C41749AA /* Pods-DKBTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKBTask.release.xcconfig"; path = "Target Support Files/Pods-DKBTask/Pods-DKBTask.release.xcconfig"; sourceTree = "<group>"; };
+		E685D1F404E19916F4FAF9E1 /* Pods_DKBTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DKBTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5B7C0D3A9DF3DBE242C790 /* Pods-DKBTask-DKBTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKBTask-DKBTaskUITests.release.xcconfig"; path = "Target Support Files/Pods-DKBTask-DKBTaskUITests/Pods-DKBTask-DKBTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EDC7068507DEF1EF00148811 /* Pods-DKBTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKBTask.debug.xcconfig"; path = "Target Support Files/Pods-DKBTask/Pods-DKBTask.debug.xcconfig"; sourceTree = "<group>"; };
+		EE32C624EE7C1E6329D1C7EC /* Pods_DKBTask_DKBTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DKBTask_DKBTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				171BA7E4E9B7BECE1A6FDADB /* Pods_DKBTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84782E78EF772BB3C3DDE70F /* Pods_DKBTaskTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE7DDEA7CEB0CDDD44224EE6 /* Pods_DKBTask_DKBTaskUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				0663350C2763A5B300ABD873 /* DKBTaskTests */,
 				066335162763A5B300ABD873 /* DKBTaskUITests */,
 				066334F42763A5B000ABD873 /* Products */,
+				8E96C514CC612350E0CCB305 /* Pods */,
+				AE5D9AB053DFCF239E1357D7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +144,30 @@
 			path = DKBTaskUITests;
 			sourceTree = "<group>";
 		};
+		8E96C514CC612350E0CCB305 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EDC7068507DEF1EF00148811 /* Pods-DKBTask.debug.xcconfig */,
+				CE47CFEEC7148CD7C41749AA /* Pods-DKBTask.release.xcconfig */,
+				ABEEE11226E1E91919EC7A8D /* Pods-DKBTask-DKBTaskUITests.debug.xcconfig */,
+				EC5B7C0D3A9DF3DBE242C790 /* Pods-DKBTask-DKBTaskUITests.release.xcconfig */,
+				76B88FE2690D3BF519B6937F /* Pods-DKBTaskTests.debug.xcconfig */,
+				C0C139BAA909E17D5C443EB7 /* Pods-DKBTaskTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AE5D9AB053DFCF239E1357D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7342740CC80D48EBEEA32CD /* Pods_DKBTask.framework */,
+				EE32C624EE7C1E6329D1C7EC /* Pods_DKBTask_DKBTaskUITests.framework */,
+				E685D1F404E19916F4FAF9E1 /* Pods_DKBTaskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0663351D2763A5B300ABD873 /* Build configuration list for PBXNativeTarget "DKBTask" */;
 			buildPhases = (
+				772D3A6382FF994CEC331884 /* [CP] Check Pods Manifest.lock */,
 				066334EF2763A5B000ABD873 /* Sources */,
 				066334F02763A5B000ABD873 /* Frameworks */,
 				066334F12763A5B000ABD873 /* Resources */,
+				F8A09B035DE613F139396B62 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 066335202763A5B300ABD873 /* Build configuration list for PBXNativeTarget "DKBTaskTests" */;
 			buildPhases = (
+				26ADDB6C24E0BFA1ECB62188 /* [CP] Check Pods Manifest.lock */,
 				066335052763A5B300ABD873 /* Sources */,
 				066335062763A5B300ABD873 /* Frameworks */,
 				066335072763A5B300ABD873 /* Resources */,
@@ -169,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 066335232763A5B300ABD873 /* Build configuration list for PBXNativeTarget "DKBTaskUITests" */;
 			buildPhases = (
+				6346C49D66D1401B9D021873 /* [CP] Check Pods Manifest.lock */,
 				0663350F2763A5B300ABD873 /* Sources */,
 				066335102763A5B300ABD873 /* Frameworks */,
 				066335112763A5B300ABD873 /* Resources */,
+				B5FBDC994DCBA6C0C931739A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26ADDB6C24E0BFA1ECB62188 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DKBTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6346C49D66D1401B9D021873 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DKBTask-DKBTaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		772D3A6382FF994CEC331884 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DKBTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5FBDC994DCBA6C0C931739A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DKBTask-DKBTaskUITests/Pods-DKBTask-DKBTaskUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DKBTask-DKBTaskUITests/Pods-DKBTask-DKBTaskUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DKBTask-DKBTaskUITests/Pods-DKBTask-DKBTaskUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8A09B035DE613F139396B62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DKBTask/Pods-DKBTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DKBTask/Pods-DKBTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DKBTask/Pods-DKBTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		066334EF2763A5B000ABD873 /* Sources */ = {
@@ -434,6 +583,7 @@
 		};
 		0663351E2763A5B300ABD873 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDC7068507DEF1EF00148811 /* Pods-DKBTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -461,6 +611,7 @@
 		};
 		0663351F2763A5B300ABD873 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE47CFEEC7148CD7C41749AA /* Pods-DKBTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +639,7 @@
 		};
 		066335212763A5B300ABD873 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76B88FE2690D3BF519B6937F /* Pods-DKBTaskTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +664,7 @@
 		};
 		066335222763A5B300ABD873 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0C139BAA909E17D5C443EB7 /* Pods-DKBTaskTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -536,6 +689,7 @@
 		};
 		066335242763A5B300ABD873 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABEEE11226E1E91919EC7A8D /* Pods-DKBTask-DKBTaskUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -558,6 +712,7 @@
 		};
 		066335252763A5B300ABD873 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC5B7C0D3A9DF3DBE242C790 /* Pods-DKBTask-DKBTaskUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
